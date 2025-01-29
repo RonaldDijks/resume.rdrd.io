@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col p-8 max-w-(--breakpoint-sm) mx-auto">
       <div className="font-mono font-bold text-5xl mb-12">
         <span>rd</span>
-        <span className="text-stone-700">rd</span>
+        <span className="animate-rainbow text-logo">rd</span>
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold">Ronald Dijks</h1>

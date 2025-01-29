@@ -1,39 +1,38 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-logo: var(--logo);
 
   --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
-  --font-mono: var(--font-geist-mono), Arial, Helvetica, sans-serif;
-}
+  --font-mono: var(--font-geist-mono), monospace;
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+  --animate-rainbow: rainbow 30s ease-in-out infinite;
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+  @keyframes rainbow {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    50% {
+      filter: hue-rotate(180deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
   }
 }
 
 :root {
   --background: var(--color-stone-100);
   --foreground: var(--color-stone-900);
+  --logo: var(--color-amber-500);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-stone-900);
+    --foreground: var(--color-stone-100);
+    --logo: var(--color-amber-200);
   }
-} */
+}
