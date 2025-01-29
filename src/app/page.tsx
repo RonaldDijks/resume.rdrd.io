@@ -2,7 +2,7 @@ import EmailButton from "@/components/email-button";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-8 max-w-screen-sm mx-auto">
+    <main className="flex flex-col p-8 max-w-(--breakpoint-sm) mx-auto">
       <div className="font-mono font-bold text-5xl mb-12">
         <span>rd</span>
         <span className="text-stone-700">rd</span>
