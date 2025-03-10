@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "rdrd",
+  title: "rdrd - Ronald Dijks",
 };
 
 export default function RootLayout({
