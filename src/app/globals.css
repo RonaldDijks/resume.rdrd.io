@@ -21,20 +21,83 @@
       filter: hue-rotate(360deg);
     }
   }
+
+  --animate-fade-in-up: fade-in-up 0.8s ease-in-out forwards;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 :root {
-  --background: var(--color-stone-100);
-  --foreground: var(--color-stone-900);
+  --background: var(--color-zinc-100);
+  --foreground: var(--color-zinc-900);
   --logo: var(--color-amber-500);
-  --muted: var(--color-stone-500);
+  --muted: var(--color-zinc-500);
 }
-/* 
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: var(--color-stone-900);
-    --foreground: var(--color-stone-100);
+    --background: var(--color-zinc-900);
+    --foreground: var(--color-zinc-100);
     --logo: var(--color-amber-200);
-    --muted: var(--color-stone-500);
+    --muted: var(--color-zinc-400);
   }
-} */
+}
+
+@utility delay-0 {
+  animation-delay: 0ms;
+  transition-delay: 0ms;
+}
+
+@utility delay-75 {
+  animation-delay: 75ms;
+  transition-delay: 75ms;
+}
+
+@utility delay-100 {
+  animation-delay: 100ms;
+  transition-delay: 100ms;
+}
+
+@utility delay-150 {
+  animation-delay: 150ms;
+  transition-delay: 150ms;
+}
+
+@utility delay-200 {
+  animation-delay: 200ms;
+  transition-delay: 200ms;
+}
+
+@utility delay-300 {
+  animation-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+@utility delay-500 {
+  animation-delay: 500ms;
+  transition-delay: 500ms;
+}
+
+@utility delay-700 {
+  animation-delay: 700ms;
+  transition-delay: 700ms;
+}
+
+@utility delay-1000 {
+  animation-delay: 1000ms;
+  transition-delay: 1000ms;
+}
+
+@utility fade-in {
+  animation: fade-in-up 0.8s ease-in-out forwards;
+  opacity: 0;
+}
