@@ -1,3 +1,4 @@
+import { Copyright } from "@/components/Copyright";
 import Education from "@/components/Education";
 import Header from "@/components/Header";
 import Logo from "@/components/Logo";
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Work />
       <Education />
+      <Copyright />
     </main>
   );
 }
