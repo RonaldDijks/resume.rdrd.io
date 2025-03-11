@@ -20,7 +20,7 @@ const Work = () => {
           details={[]}
         />
         <Experience
-          position="Research and Development"
+          position="R&D"
           company={{ name: "KoalaDSP", url: "https://koaladsp.com" }}
           period={{ from: "2020", to: "Present" }}
           location="Remote"
@@ -42,7 +42,7 @@ const Work = () => {
           ]}
         />
         <Experience
-          position="Software developer"
+          position="Full stack developer"
           company={{ name: "Hoppinger", url: "https://hoppinger.nl" }}
           period={{ from: "2017", to: "2018" }}
           location="Rotterdam"
@@ -69,7 +69,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
   return (
     <div className="grid gap-8 grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
       <div>
-        <h3 className="text-foreground">
+        <h3 className="text-foreground  [text-wrap:balance]">
           <Link href={props.company.url}>
             {props.position} at {props.company.name}
           </Link>
