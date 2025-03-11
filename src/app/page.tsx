@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex flex-col p-8 gap-8 max-w-4xl">
       <Logo />
       <Header />
-      <Section title="Work" className="!delay-500">
+      <Section title="Work" className="!delay-400">
         {work.map((item, index) => (
           <Entry
             key={index}
