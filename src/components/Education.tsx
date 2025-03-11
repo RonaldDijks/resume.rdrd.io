@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="grid gap-4 fade-in !delay-400">
-      <h2 className="text-xl font-bold">Work</h2>
+      <h2 className="text-xl font-bold">Education</h2>
       <div className="grid divide-y divide-zinc-700">
         <Experience
           study="Computer Science"
