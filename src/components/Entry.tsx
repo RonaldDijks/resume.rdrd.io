@@ -31,7 +31,7 @@ const Entry: React.FC<EntryProps> = (props) => {
         <p>{props.location}</p>
       </div>
       {props.details && props.details.length > 0 && (
-        <div className="text-balance">
+        <div className="">
           {props.details.map((detail) => (
             <div key={detail}>{detail}</div>
           ))}

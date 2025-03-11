@@ -6,9 +6,10 @@ export const work = [
     period: { from: "2021", to: "Present" },
     location: "Amsterdam",
     details: [
-      "Online supermarket for locally sourced produce",
-      "Contributor to the warehouse management system",
-      "Led the design and development of the driver app",
+      "Built an online supermarket for locally sourced produce",
+      "Maintained and developed the entire stack and infrastructure",
+      "Worked on development tooling like type/code generation and framework",
+      "Led the implementation and design of the driver app",
     ],
   },
   {
@@ -18,8 +19,9 @@ export const work = [
     period: { from: "2019", to: "Present" },
     location: "Remote",
     details: [
-      "Consultancy and development for web applications",
-      "Led the creation of multiple SAAS products",
+      "Founded my software development consultancy company",
+      "Focused on fullstack jamstack development with React, Next.js, Tailwind CSS, and TypeScript",
+      "Developed high-performance lock-free digital signal processing algorithms",
     ],
   },
   {
@@ -29,8 +31,8 @@ export const work = [
     period: { from: "2020", to: "Present" },
     location: "Remote",
     details: [
-      "Development for DSP plugins and audio processing algorithms",
-      "Developed audio processing algorithms",
+      "Partnered with audio and broadcasting companies as a development partner",
+      "Developed DSP plugins and audio processing algorithms",
       "Created a toolchain to compile audio plugins to WebAssembly",
     ],
   },
@@ -41,9 +43,10 @@ export const work = [
     period: { from: "2018", to: "2019" },
     location: "Remote",
     details: [
-      "Developer of the denise audio ecommerce platform",
-      "Implemented modern technologies to enhance the platform",
-      "Manage end-to-end development of the platform",
+      "Helped create and sell plugins for music producers on their online platform.",
+      "Transitioned their online platform from JavaScript to TypeScript",
+      "Developed and maintained a GraphQL Apollo Server running on Heroku",
+      "Built an ecommerce platform for selling plugins with React and TypeScript",
     ],
   },
   {
@@ -53,9 +56,9 @@ export const work = [
     period: { from: "2017", to: "2018" },
     location: "Rotterdam",
     details: [
-      "Developer at a full service agency",
-      "Worked on a variety of projects for clients in the Netherlands",
-      "Gained experience in different technologies and frameworks",
+      "Worked at a full service agency for companies in the Netherlands",
+      "Web development using C# and React with TypeScript",
+      "Created a transpiler for multiple language frontends that compile to a shared common language",
     ],
   },
 ];

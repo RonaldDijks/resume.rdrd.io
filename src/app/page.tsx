@@ -28,6 +28,36 @@ export default function Home() {
           />
         ))}
       </Section>
+      <Section title="Technologies I use" className="!delay-700">
+        <div className="grid gap-4">
+          <p className="text-sm text-muted">
+            These are some of the technologies I love using. I am always open to
+            learning more.
+          </p>
+          <div className="grid grid-cols-2 gap-2 text-sm">
+            <div>
+              <p>Tailwind</p>
+              <p>React</p>
+              <p>Next</p>
+              <p>TypeScript</p>
+              <p>Radix UI</p>
+              <p>CSS Animations</p>
+              <p>Postgres</p>
+              <p>shadcn/ui</p>
+            </div>
+            <div>
+              <p>Figma</p>
+              <p>Notion</p>
+              <p>Vercel</p>
+              <p>Payload</p>
+              <p>Headless CMSs</p>
+              <p>Cloudflare</p>
+              <p>Macbook</p>
+              <p>Github</p>
+            </div>
+          </div>
+        </div>
+      </Section>
       <p className="text-xs text-muted fade-in !delay-700">
         &copy; {new Date().getFullYear()} Ronald Dijks.
       </p>
