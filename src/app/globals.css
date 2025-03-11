@@ -82,6 +82,11 @@
   transition-delay: 300ms;
 }
 
+@utility delay-400 {
+  animation-delay: 400ms;
+  transition-delay: 400ms;
+}
+
 @utility delay-500 {
   animation-delay: 500ms;
   transition-delay: 500ms;
