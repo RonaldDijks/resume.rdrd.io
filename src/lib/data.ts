@@ -5,7 +5,11 @@ export const work = [
     link: "https://crisp.nl",
     period: { from: "2021", to: "Present" },
     location: "Amsterdam",
-    details: [],
+    details: [
+      "Online supermarket for locally sourced produce",
+      "Contributor to the warehouse management system",
+      "Led the design and development of the driver app",
+    ],
   },
   {
     position: "Owner",
@@ -13,7 +17,10 @@ export const work = [
     link: "https://rdrd.io",
     period: { from: "2019", to: "Present" },
     location: "Remote",
-    details: [],
+    details: [
+      "Consultancy and development for web applications",
+      "Led the creation of multiple SAAS products",
+    ],
   },
   {
     position: "R&D",
@@ -22,8 +29,8 @@ export const work = [
     period: { from: "2020", to: "Present" },
     location: "Remote",
     details: [
-      "Software development for DSP plugins and audio processing algorithms",
-      "Developed audio processing algorithms for the KoalaDSP platform",
+      "Development for DSP plugins and audio processing algorithms",
+      "Developed audio processing algorithms",
       "Created a toolchain to compile audio plugins to WebAssembly",
     ],
   },
@@ -46,7 +53,7 @@ export const work = [
     period: { from: "2017", to: "2018" },
     location: "Rotterdam",
     details: [
-      "Started as a developer at a full service agency",
+      "Developer at a full service agency",
       "Worked on a variety of projects for clients in the Netherlands",
       "Gained experience in different technologies and frameworks",
     ],

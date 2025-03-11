@@ -11,7 +11,7 @@ export interface EntryProps {
 
 const Entry: React.FC<EntryProps> = (props) => {
   return (
-    <div className="grid gap-4 grid-cols-1 sm:grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
+    <section className="grid gap-4 grid-cols-1 sm:grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
       <div>
         <div className="mb-0 md:mb-2">
           <h3 className="text-foreground [text-wrap:balance]">
@@ -31,13 +31,13 @@ const Entry: React.FC<EntryProps> = (props) => {
         <p>{props.location}</p>
       </div>
       {props.details && props.details.length > 0 && (
-        <div className="grid gap-2">
+        <div className="text-balance">
           {props.details.map((detail) => (
             <div key={detail}>{detail}</div>
           ))}
         </div>
       )}
-    </div>
+    </section>
   );
 };
 
