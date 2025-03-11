@@ -4,7 +4,7 @@ const Education = () => {
       <h2 className="text-xl font-bold">Work</h2>
       <div className="grid divide-y divide-zinc-700">
         <Experience
-          study="Full Stack Developer"
+          study="Computer Science"
           school="Rotterdam University of Applied Sciences"
           period={{ from: "2015", to: "2021" }}
           location="Rotterdam"
