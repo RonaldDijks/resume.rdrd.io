@@ -4,7 +4,7 @@ import Work from "@/components/Work";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-8 gap-8">
+    <main className="flex flex-col p-8 gap-8 max-w-4xl">
       <Logo />
       <Header />
       <Work />

@@ -106,3 +106,8 @@
   animation: fade-in-up 0.8s ease-in-out forwards;
   opacity: 0;
 }
+
+::selection {
+  color: var(--color-zinc-900);
+  background-color: var(--color-violet-500);
+}

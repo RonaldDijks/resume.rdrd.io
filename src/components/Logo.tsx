@@ -8,7 +8,7 @@ const Logo = () => {
         className="block font-mono font-bold text-5xl transition-transform ease-in-out duration-200 hover:scale-110"
       >
         <span>rd</span>
-        <span className="animate-rainbow text-logo">rd</span>
+        <span className="text-zinc-400">rd</span>
       </NextLink>
     </div>
   );

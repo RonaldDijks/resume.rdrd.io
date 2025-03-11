@@ -67,7 +67,7 @@ export interface ExperienceProps {
 
 const Experience: React.FC<ExperienceProps> = (props) => {
   return (
-    <div className="grid gap-2 md:grid-cols-2 text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
+    <div className="grid gap-8 grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
       <div>
         <h3 className="text-foreground">
           <Link href={props.company.url}>
@@ -79,11 +79,11 @@ const Experience: React.FC<ExperienceProps> = (props) => {
         </p>
         <p>{props.location}</p>
       </div>
-      <ul className="grid gap-2">
+      <div className="grid gap-2">
         {props.details.map((detail) => (
-          <li key={detail}>{detail}</li>
+          <div key={detail}>{detail}</div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
