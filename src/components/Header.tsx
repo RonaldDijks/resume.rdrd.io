@@ -10,11 +10,7 @@ const Header = () => {
         <Link href="mailto:ronald@rdrd.io">Email</Link>
       </div>
       <p className="text-sm text-muted fade-in !delay-300 max-w-prose">
-        I&apos;m a developer specializing in creating intuitive,
-        high-performance software and websites that are both functional and
-        visually appealing. I am passionate about usability and aesthetics in
-        software and technology. I play with audio, embedded and web
-        technologies.
+        You can just do things.
       </p>
     </div>
   );
