@@ -1,3 +1,4 @@
+import Education from "@/components/Education";
 import Header from "@/components/Header";
 import Logo from "@/components/Logo";
 import Work from "@/components/Work";
@@ -8,6 +9,7 @@ export default function Home() {
       <Logo />
       <Header />
       <Work />
+      <Education />
     </main>
   );
 }
