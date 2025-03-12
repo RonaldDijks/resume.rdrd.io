@@ -73,3 +73,26 @@ export const education = [
     details: [],
   },
 ];
+
+export const technologies = [
+  [
+    "Tailwind",
+    "React",
+    "Next",
+    "TypeScript",
+    "Radix UI",
+    "CSS Animations",
+    "Postgres",
+    "shadcn/ui",
+  ],
+  [
+    "Figma",
+    "Notion",
+    "Vercel",
+    "Payload",
+    "Headless CMSs",
+    "Cloudflare",
+    "Macbook",
+    "Github",
+  ],
+];

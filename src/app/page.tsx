@@ -2,7 +2,7 @@ import Entry from "@/components/Entry";
 import Header from "@/components/Header";
 import Logo from "@/components/Logo";
 import { Section } from "@/components/Section";
-import { education, work } from "@/lib/data";
+import { education, technologies, work } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -35,26 +35,13 @@ export default function Home() {
             learning more.
           </p>
           <div className="grid grid-cols-2 gap-2 text-sm">
-            <div>
-              <p>Tailwind</p>
-              <p>React</p>
-              <p>Next</p>
-              <p>TypeScript</p>
-              <p>Radix UI</p>
-              <p>CSS Animations</p>
-              <p>Postgres</p>
-              <p>shadcn/ui</p>
-            </div>
-            <div>
-              <p>Figma</p>
-              <p>Notion</p>
-              <p>Vercel</p>
-              <p>Payload</p>
-              <p>Headless CMSs</p>
-              <p>Cloudflare</p>
-              <p>Macbook</p>
-              <p>Github</p>
-            </div>
+            {technologies.map((group, index) => (
+              <div key={index}>
+                {group.map((technology) => {
+                  return <p key={technology}>{technology}</p>;
+                })}
+              </div>
+            ))}
           </div>
         </div>
       </Section>
