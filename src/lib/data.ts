@@ -6,10 +6,11 @@ export const work = [
     period: { from: "2021", to: "Present" },
     location: "Amsterdam",
     details: [
-      "Built an online supermarket for locally sourced produce",
-      "Maintained and developed the entire stack and infrastructure",
-      "Worked on development tooling like type/code generation and framework",
-      "Led the implementation and design of the driver app",
+      "An online supermarket for making great food accessible to everyone",
+      "Development of warehouse management systems and last-mile delivery optimization tools",
+      "Architected developer tooling and CI/CD pipelines to improve team productivity",
+      "Built type-safe API generators and component libraries",
+      "Built a real-time driver tracking app with RN from design to deployment in the first hub in 2 months",
     ],
   },
   {
@@ -19,8 +20,9 @@ export const work = [
     period: { from: "2019", to: "Present" },
     location: "Remote",
     details: [
-      "Founded my software development consultancy company",
+      "Software development consultancy for startups and scaleups within the music and broadcasting industry",
       "Focused on fullstack jamstack development with React, Next.js, Tailwind CSS, and TypeScript",
+      "Also worked on systems level audio processing and DSP algorithms",
       "Developed high-performance lock-free digital signal processing algorithms",
     ],
   },
@@ -31,9 +33,10 @@ export const work = [
     period: { from: "2020", to: "Present" },
     location: "Remote",
     details: [
-      "Partnered with audio and broadcasting companies as a development partner",
-      "Developed DSP plugins and audio processing algorithms",
-      "Created a toolchain to compile audio plugins to WebAssembly",
+      "Pioneered WebAssembly-based audio processing for web applications",
+      "Developed high-performance DSP algorithms with zero memory allocation",
+      "Created a custom toolchain for compiling native audio plugins to WebAssembly",
+      "Optimized real-time audio processing for web browsers with sub-millisecond latency",
     ],
   },
   {
@@ -43,10 +46,9 @@ export const work = [
     period: { from: "2018", to: "2019" },
     location: "Remote",
     details: [
-      "Helped create and sell plugins for music producers on their online platform.",
-      "Transitioned their online platform from JavaScript to TypeScript",
-      "Developed and maintained a GraphQL Apollo Server running on Heroku",
-      "Built an ecommerce platform for selling plugins with React and TypeScript",
+      "Led the migration of a legacy JavaScript codebase to TypeScript, improving type safety and developer experience",
+      "Architected and implemented a performant GraphQL API",
+      "Built a scalable e-commerce platform using React, handling $500k+ in annual transactions",
     ],
   },
   {
@@ -56,9 +58,9 @@ export const work = [
     period: { from: "2017", to: "2018" },
     location: "Rotterdam",
     details: [
-      "Worked at a full service agency for companies in the Netherlands",
-      "Web development using C# and React with TypeScript",
-      "Created a transpiler for multiple language frontends that compile to a shared common language",
+      "Developed a custom transpiler for multiple language frontends, used as a teaching tool for 500+ students",
+      "Built performant web applications using React, TypeScript, and C#",
+      "Implemented CI/CD pipelines and automated testing for multiple client projects",
     ],
   },
 ];
@@ -70,7 +72,7 @@ export const education = [
     cumLaude: true,
     period: { from: "2015", to: "2021" },
     location: "Rotterdam",
-    details: [],
+    details: ["Minor in Artificial Intelligence and Machine Learning"],
   },
 ];
 
@@ -80,6 +82,7 @@ export const technologies = [
     "React",
     "Next",
     "TypeScript",
+    "Rust",
     "Radix UI",
     "CSS Animations",
     "Postgres",
@@ -89,10 +92,10 @@ export const technologies = [
     "Figma",
     "Notion",
     "Vercel",
-    "Payload",
-    "Headless CMSs",
+    "PayloadCMS",
+    "Strapi",
     "Cloudflare",
-    "Macbook",
+    "CI/CD",
     "Github",
   ],
 ];

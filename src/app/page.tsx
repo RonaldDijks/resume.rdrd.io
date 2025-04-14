@@ -6,7 +6,7 @@ import { education, technologies, work } from "@/lib/data";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-8 gap-8 max-w-4xl">
+    <main className="flex flex-col not-print:p-8 not-print:gap-8 print:gap-4 max-w-4xl print:text-sm">
       <Logo />
       <Header />
       <Section title="Work" className="!delay-400">
@@ -45,9 +45,6 @@ export default function Home() {
           </div>
         </div>
       </Section>
-      <p className="text-xs text-muted fade-in !delay-700">
-        &copy; {new Date().getFullYear()} Ronald Dijks.
-      </p>
     </main>
   );
 }

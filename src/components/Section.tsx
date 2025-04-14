@@ -10,12 +10,7 @@ export const Section = ({
   title: string;
 }) => {
   return (
-    <div
-      className={cn(
-        "grid gap-4 fade-in break-inside-avoid-page",
-        className ?? ""
-      )}
-    >
+    <div className={cn("grid gap-4 fade-in", className ?? "")}>
       <h2 className="text-xl font-bold">{title}</h2>
       <hr className="not-print:hidden" />
       <div className="grid divide-y divide-zinc-700 print:divide-y-0">

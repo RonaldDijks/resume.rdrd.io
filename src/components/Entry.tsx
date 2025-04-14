@@ -11,10 +11,10 @@ export interface EntryProps {
 
 const Entry: React.FC<EntryProps> = (props) => {
   return (
-    <section className="grid gap-4 grid-cols-1 sm:grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2">
+    <section className="grid gap-4 grid-cols-1 sm:grid-cols-[1fr_2fr] text-sm text-muted hover:bg-zinc-800 py-3 px-2 -mx-2 break-inside-avoid-page">
       <div>
         <div className="mb-0 md:mb-2">
-          <h3 className="text-foreground [text-wrap:balance]">
+          <h3 className="text-foreground text-pretty">
             {props.link ? (
               <Link href={props.link}>{props.title}</Link>
             ) : (
@@ -22,7 +22,7 @@ const Entry: React.FC<EntryProps> = (props) => {
             )}
           </h3>
           {props.subtitle && (
-            <p className="text-muted-foreground text-sm">{props.subtitle}</p>
+            <p className="text-muted-foreground text-xs">{props.subtitle}</p>
           )}
         </div>
         <p>
