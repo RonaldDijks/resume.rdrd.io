@@ -7,10 +7,10 @@ export const work = [
     location: "Amsterdam",
     details: [
       "An online supermarket for making great food accessible to everyone",
-      "Development of warehouse management systems and last-mile delivery optimization tools",
-      "Architected developer tooling and CI/CD pipelines to improve team productivity",
-      "Built type-safe API generators and component libraries",
-      "Built a real-time driver tracking app with RN from design to deployment in the first hub in 2 months",
+      "Development of warehouse management systems and last-mile delivery tools",
+      "Developer tooling and CI/CD pipelines to improve team productivity",
+      "Type-safe API generators and component libraries",
+      "Last mile delivery android app with React Native",
     ],
   },
   {
@@ -20,10 +20,10 @@ export const work = [
     period: { from: "2019", to: "Present" },
     location: "Remote",
     details: [
-      "Software development consultancy for startups and scaleups within the music and broadcasting industry",
-      "Focused on fullstack jamstack development with React, Next.js, Tailwind CSS, and TypeScript",
-      "Also worked on systems level audio processing and DSP algorithms",
-      "Developed high-performance lock-free digital signal processing algorithms",
+      "Independent software dev consultancy for audio and broadcasting technology",
+      "Full-stack JAMstack solutions with React, Next.js, Tailwind CSS, and TypeScript",
+      "Low-level audio processing systems and digital signal processing algorithms",
+      "High-performance, lock-free DSP implementations for real-time audio applications",
     ],
   },
   {
@@ -33,10 +33,10 @@ export const work = [
     period: { from: "2020", to: "Present" },
     location: "Remote",
     details: [
-      "Pioneered WebAssembly-based audio processing for web applications",
-      "Developed high-performance DSP algorithms with zero memory allocation",
-      "Created a custom toolchain for compiling native audio plugins to WebAssembly",
-      "Optimized real-time audio processing for web browsers with sub-millisecond latency",
+      "WebAssembly-based audio processing technology for modern web applications",
+      "High-performance DSP algorithms with zero allocation for optimal performance",
+      "Custom toolchains for cross-compiling native audio plugins to WebAssembly",
+      "Real-time audio processing pipelines achieving sub-millisecond latency",
     ],
   },
   {
@@ -46,9 +46,9 @@ export const work = [
     period: { from: "2018", to: "2019" },
     location: "Remote",
     details: [
-      "Led the migration of a legacy JavaScript codebase to TypeScript, improving type safety and developer experience",
-      "Architected and implemented a performant GraphQL API",
-      "Built a scalable e-commerce platform using React, handling $500k+ in annual transactions",
+      "Led the successful migration of a legacy JavaScript codebase to TypeScript",
+      "Architected and implemented a high-performance GraphQL API",
+      "Built and deployed a robust e-commerce platform handling $500k+ AR",
     ],
   },
   {
